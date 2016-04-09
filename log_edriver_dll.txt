@@ -1,0 +1,20 @@
+(203)IN> dll_edriver_config(char *product=QSFP, char *error)
+(203)RT> Fail, (Error Message: <NO_EUI> Please check the connection or Reset the EUI)
+(203)RT> config structure =BOA_25G_1.42.01(Product), CXP(Formfactor), CXP(EVALBoard), EUI(Conn), A0, A0, MDIO(MODULE_INTERFACE), I2C(LOG), I2C(SIMULATION), 0, 0, -858993460(EUI2 I2C('1' =4 wires, '0' = 2 wires)
+
+
+(46)IN> dll_edriver_config(char *product=QSFP, char *error)
+(46)RT> Fail, (Error Message: <NO_EUI> Please check the connection or Reset the EUI)
+(46)RT> config structure =BOA_25G_1.42.01(Product), CXP(Formfactor), CXP(EVALBoard), EUI(Conn), A0, A0, MDIO(MODULE_INTERFACE), I2C(LOG), I2C(SIMULATION), 0, 0, -858993460(EUI2 I2C('1' =4 wires, '0' = 2 wires)
+
+
+(6265)IN> dll_edriver_config(char *product=QSFP, char *error)
+(6265)RT> Fail, (Error Message: <NO_EUI> Please check the connection or Reset the EUI)
+(6265)RT> config structure =BOA_25G_1.42.01(Product), CXP(Formfactor), CXP(EVALBoard), EUI(Conn), A0, A0, MDIO(MODULE_INTERFACE), I2C(LOG), I2C(SIMULATION), 0, 0, -858993460(EUI2 I2C('1' =4 wires, '0' = 2 wires)
+
+
+(35)IN> dll_edriver_config(char *product=QSFP, char *error)
+(35)RT> Fail, (Error Message: <NO_EUI> Please check the connection or Reset the EUI)
+(35)RT> config structure =BOA_25G_1.42.01(Product), CXP(Formfactor), CXP(EVALBoard), EUI(Conn), A0, A0, MDIO(MODULE_INTERFACE), I2C(LOG), I2C(SIMULATION), 0, 0, -858993460(EUI2 I2C('1' =4 wires, '0' = 2 wires)
+
+
