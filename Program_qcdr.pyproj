@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{94ce2551-c1ed-4b46-892d-0a03ea2e93a7}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>find_I2C_addresses.py</StartupFile>
+    <StartupFile>program_fcc05_eep.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>

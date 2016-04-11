@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+# 这是一个学习code，带中文注释
+
 from call_edriverdll import *
 import time
 from math import *
@@ -220,10 +223,16 @@ pkt_addr = 0x0040
 ram_addr = 0x0000
 next_chunk_addr = chunk_addr = 0x00
 
+
 if init_comms() != 1:
     exit()
 
+
 # Get file name of EEP image from command line or internal default
+# 支持带参数运行该脚本
+# 运行方式：
+# 1, program_fcc05_eep.py↙
+# 2, program_fcc05_eep.py 1.eep↙
 if len(sys.argv) == 1:
     print 'Using default EEP file name:', eepFileName
 elif len(sys.argv) == 2:
@@ -242,7 +251,11 @@ if i2c_addr == 0:
 halt_fcc()
 
 #setting NVM mode to EEPROM
-# set page
+# set page: 0x21
+# Note, 
+#   It reserved 128 bytes as buffer on page 0x21 to transfer the data 
+# to external eeprom
+
 data_c[0] = chr(0x21)
 result = edriver_i2c_write(i2c_addr,0x7F,1,0,data_c,error)
 
