@@ -227,8 +227,8 @@ if init_comms() != 1:
 
 # Get file name of EEP image from command line or internal default
 # Support the below way:
-# 1, program_fcc05_eep.py
-# 2, program_fcc05_eep.py 1.eep
+# 1, program_fcc05_eep.py \n
+# 2, program_fcc05_eep.py 1.eep \n
 if len(sys.argv) == 1:
     print 'Using default EEP file name:', eepFileName
 elif len(sys.argv) == 2:
