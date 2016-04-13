@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# 这是一个学习code，带中文注释
-
 from call_edriverdll import *
 import time
 from math import *
@@ -229,10 +226,9 @@ if init_comms() != 1:
 
 
 # Get file name of EEP image from command line or internal default
-# 支持带参数运行该脚本
-# 运行方式：
-# 1, program_fcc05_eep.py↙
-# 2, program_fcc05_eep.py 1.eep↙
+# Support the below way:
+# 1, program_fcc05_eep.py
+# 2, program_fcc05_eep.py 1.eep
 if len(sys.argv) == 1:
     print 'Using default EEP file name:', eepFileName
 elif len(sys.argv) == 2:
